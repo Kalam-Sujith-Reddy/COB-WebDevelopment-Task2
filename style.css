@@ -1,0 +1,46 @@
+.container {
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  #question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: large;
+  }
+  
+  #options input[type="radio"] {
+    margin-bottom: 10px;
+  }
+  
+  #submit {
+    padding: 10px 20px;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #score {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
